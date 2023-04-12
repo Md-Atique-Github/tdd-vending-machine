@@ -10,7 +10,14 @@ describe('the vending machine', () => {
         const actual = machine.seeSelections();
 
         // assert
-        expect(true).toEqual(true);
+        expect(expected).toEqual(actual);
     });
 
+    //it('how much money I have deposited'),()=>{
+        // arrange
+
+        // act
+
+        // assert
+   // }
 });

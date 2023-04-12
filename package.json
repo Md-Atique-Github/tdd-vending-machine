@@ -8,5 +8,9 @@
   },
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6"
   }
+  
 }
