@@ -2,7 +2,7 @@ module.exports = class Machine {
 
     //WRITTEN BY MUHAMMAD ATIQUE
 
-    /*static items = [{'crisps': 100}, {'chocolate': 350}, {'mints': 70}]
+    static items = [{'crisps': 100}, {'chocolate': 350}, {'mints': 70}]
     static amount = 0;
     constructor() {
 
@@ -33,4 +33,4 @@ module.exports = class Machine {
             return 'The item you selected is unavailable'
 }
     }
-};*/
+};
