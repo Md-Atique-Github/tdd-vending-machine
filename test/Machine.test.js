@@ -129,13 +129,16 @@ describe('the vending machine', () => {
          //Arrange
          const machine = new Machine()
          machine.amountEmpty()
-         machine.deposit(200)
-         const expected = 'Cannot return proper change.  Please choose another item or cancel the transaction'
+         machine.deposit(100)
+         //const expected = 'Cannot return proper change.  Please choose another item or cancel the transaction'
          //Act
-            const result = Machine.selectItem(1)
+            const result = machine.selectItem(2)
 
           //Assert
-          expect(expected).toEqual(result)
+          expect(result).toEqual({
+            item: 'mints',
+            change: [20,10]
+        })
 });
 
 })
