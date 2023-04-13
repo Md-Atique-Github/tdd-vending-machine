@@ -1,6 +1,6 @@
 module.exports = class Machine {
 
-   /* //WRITTEN BY MUHAMMAD ATIQUE
+   //WRITTEN BY MUHAMMAD ATIQUE
 
     static items = [
         { name: 'crisps', price: 100 }, { name: 'chocolate', price: 350 }, { name: 'mints', price: 70 }]
@@ -52,4 +52,4 @@ module.exports = class Machine {
     cancelAmount(){
         return {change: [Machine.amount]}
     }
-};*/
+};

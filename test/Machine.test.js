@@ -88,6 +88,8 @@ describe('the vending machine', () => {
 
 //WRITTEN BY ALI BIN EJAZ
 
+// 6-As a customer, I want to receive change, so that I don’t pay more than the item costs
+
     it("return the change", () => {
         // Arange
         const machine = new Machine();
